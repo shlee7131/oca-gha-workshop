@@ -1,0 +1,16 @@
+name: Hello World
+
+on:
+  push:
+    branches: [hello-world]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Hello World
+        uses: ./.github/actions/hello-world

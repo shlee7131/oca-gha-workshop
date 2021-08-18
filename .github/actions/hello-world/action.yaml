@@ -1,0 +1,6 @@
+name: Hello World
+description: Say hello world with Docker Action
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
